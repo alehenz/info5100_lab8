@@ -1,0 +1,11 @@
+name: info5100
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - openpyxl     # needed by pandas to read the .xlsx files
+  - ipykernel    # lets Jupyter / DataSpell run the notebook

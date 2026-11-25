@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE-specific configuration
+.idea/
+.vscode/
+*.iml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Stray copies of data outside data/raw/ (the analysed files live in data/raw/)
+/data/*
+!/data/raw/
+
+# Local backup of the extended analysis (not part of the submission)
+/archive/
+.idea/
+.ipynb_checkpoints/
+__pycache__/
